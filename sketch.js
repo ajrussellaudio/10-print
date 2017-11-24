@@ -2,7 +2,6 @@ var spacing, grid;
 
 function setup() {
   createCanvas(window.innerWidth, window.innerHeight);
-  // createCanvas(400, 300);
   spacing = max(width, height) / 16;
   console.log(spacing);
   grid = [];
